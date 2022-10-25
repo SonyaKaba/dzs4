@@ -13,7 +13,7 @@ int y = int.Parse(Console.ReadLine());
 int power = x;
 
 for (int i = 1; i < y; i++)
-    {
+{
     power = power * x;
-    }
+}
 Console.WriteLine($"Result = {power}");
